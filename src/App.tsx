@@ -440,7 +440,7 @@ const MarryMePage = ({ onBack }: { onBack: () => void }) => {
         return (
             <div className="marry-me-video-overlay">
                 <video
-                    src="/reasons-video.mp4"
+                    src="/reasons-video.mp4"//post video
                     className="marry-me-video"
                     autoPlay
                     controls
@@ -526,7 +526,7 @@ const EventDayPage = ({ eventData, onBack }: { eventData: EventPageData, onBack:
             <div className={`text-center mb-4 z-10 transition-all duration-700 ${messageRevealed ? 'rose-revealed-header' : ''}`}>
                 <div className="flex items-center justify-center gap-2 mb-1">
                     <span className="text-lg">🎀</span>
-                    <span className="text-pink-600 text-xs font-medium tracking-wide">Valentine's Week 2025</span>
+                    <span className="text-pink-600 text-xs font-medium tracking-wide">Valentine's Week 2026</span>
                     <span className="text-lg">🎀</span>
                 </div>
                 <h1 className="valentine-title text-2xl md:text-3xl lg:text-4xl font-bold text-rose-600">
@@ -668,7 +668,7 @@ const ValentineWeekPage = ({ onRevealDay }: { onRevealDay: (dayName: string) => 
             <div className="text-center mb-6 z-10">
                 <div className="flex items-center justify-center gap-2 mb-2">
                     <span className="text-pink-500 text-2xl">🎀</span>
-                    <span className="text-pink-600 text-sm font-medium tracking-wide">Valentine's Week 2025</span>
+                    <span className="text-pink-600 text-sm font-medium tracking-wide">Valentine's Week 2026</span>
                     <span className="text-pink-500 text-2xl">🎀</span>
                 </div>
                 <h1 className="valentine-title text-2xl md:text-3xl lg:text-4xl font-bold text-pink-700 mb-4">

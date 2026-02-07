@@ -53,15 +53,15 @@ export const eventPagesData: Record<string, EventPageData> = {
         videoPoster: '',
 
         // 💌 Love Letter Content
-        letterGreeting: 'My Byoli',
+        letterGreeting: 'My Dearest,',
         letterPoem: [
             'heyy baby i know i could not be with you physically but i hope this website could make up for it',
             'this is the least i could have done for you ; I hope you like my virtual roses eheheh',
             'Unlike real roses this one would never die just like our love that will be forever. I hope i show this website to ashleey and deni someday they will be so proud of daddaa ehehe',
-            'So, Happy Rose Day my forever valentine and Happy anniversary pre eve too baby its about to be 10 whole months just the beginning of our beautiful long journey',
-            'Love you always my babyyyy 💕'
+            'So, Happy Rose Day my forever valentine and Happy anniversary eve too baby its about to be 10 whole months just the beginning of our beautiful long journey',
+            'Love you always my babyyyy 💕',
         ],
-        letterClosing: 'Together Forever and Ever'
+        letterClosing: 'Love always.'
     },
 
     // ============================================
@@ -78,17 +78,21 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/propose day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '', // Replace with your actual image path
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/propose-video-poster.jpg',
+        videoSrc: '/prop.MOV',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'My Love,',
         letterPoem: [
-            'With this ring of words I speak,',
-            'A future together is what I seek.',
-            'Will you be mine, through thick and thin?',
-            'Let our forever love story begin.'
+            'Happy 10 month anniversary and Propose day babbyyyyyy I Love you so damn muchhhhh: Isnt it a coincidence that our anniversary lies on propose day so why should i waste this opportunity of mine',
+            'I hope you accept babyyy.....Would you marry mee babyyy ik we are already married but why not to propose hainna its so romantic afterall did not realize till now that we both have turned so cringee but itss soo cute and good to be cringe with you ',
+            'I hope i will have a chance to propose you every year eehehehehh the day ill actually propose you for marriage tu shock mein chli jayegi ki he has dome it so many times already is he for real now eheheheh but navya i reall love you i hope i am the light in your life if my actions bring you happiness thats all i want tbh',
+            'The context of the video playing is thats the first time i made any edit for you  navyaaaaaa i hope we meet soon tbh i might not show it much but the distance is killing me from inside i dont ewanna be near anyone other than you i could sleep all day long in your lap sucking on uhmuhm i dream of us everyday this distance keeps me away from you but not my gifts ehehei try to give all i can and hope to be tagged the best boyfriend or husband somedayy',
+            'I wanna meet you every fuckin day navyaaaa aghhh i cry everyday due to this i just get scared sometimes that what future holds for us but i hope whatever it is it better be with you cause without navya theree aint no dakshay i hope your parents accept my proposal someday too i hope they will realize this guy will try to keep their daughter more happy then them ;Chal its time to end this letter sooo happy anniversary babe and happy propose day tooo and...mahal kita as you said in your first proposal ehehe i love you too babyy'
         ],
         letterClosing: 'Forever yours.'
     },
@@ -107,9 +111,12 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/chocolate day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '/chocolate day.png',
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/chocolate-video-poster.jpg',
+        videoSrc: '',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'Sweetest One,',
@@ -136,9 +143,12 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/teddy day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '/teddy day.png',
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/teddy-video-poster.jpg',
+        videoSrc: '',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'My Cuddle Bug,',
@@ -165,9 +175,12 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/promise day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '/promise day.png',
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/promise-video-poster.jpg',
+        videoSrc: '',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'My Promise,',
@@ -194,9 +207,12 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/hug day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '/hug day.png',
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/hug-video-poster.jpg',
+        videoSrc: '',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'My Warm Embrace,',
@@ -223,9 +239,12 @@ export const eventPagesData: Record<string, EventPageData> = {
         // 📷 Image: Place your image in /public folder
         coupleImage: '/kiss day couple.png',
 
+        // 📷 Post-reveal Image (replaces video)
+        imageSrc: '/kiss day.png',
+
         // 🎬 Video: Place your video in /public folder
-        videoSrc: '/reasons-video.mp4',
-        videoPoster: '/kiss-video-poster.jpg',
+        videoSrc: '',
+        videoPoster: '',
 
         // 💌 Love Letter Content
         letterGreeting: 'My Sweetheart,',
