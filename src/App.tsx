@@ -46,6 +46,25 @@ const getDaysUntilUnlock = (unlockDay: number): number => {
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
     return Math.max(0, diffDays)
 }
+// Helper function to get current Valentine's Week day (1-7, or 8 for Valentine's Day)
+const getCurrentValentineDay = (): number => {
+    const now = new Date()
+    const currentMonth = now.getMonth() + 1 // 0-indexed
+    const currentDay = now.getDate()
+
+    // Valentine's Week starts Feb 7 (Day 1) and ends Feb 14 (Day 8)
+    if (currentMonth === 2 && currentDay >= 7 && currentDay <= 14) {
+        return currentDay - 6 // Feb 7 = 1, Feb 8 = 2, ..., Feb 14 = 8
+    }
+    // Before Feb 7, return 0
+    if (currentMonth < 2 || (currentMonth === 2 && currentDay < 7)) {
+        return 0
+    }
+    // After Feb 14, return 8 (completed)
+    return 8
+}
+
+
 
 // Day Card Component - Image with text overlay, lock state, and reveal button
 const DayCard = ({ date, image, name, unlockDay, onReveal }: {
@@ -676,7 +695,7 @@ const ValentineWeekPage = ({ onRevealDay }: { onRevealDay: (dayName: string) => 
                 </h1>
 
                 {/* Progress Bar */}
-                <ProgressBar currentDay={1} />
+                <ProgressBar currentDay={getCurrentValentineDay()} />
             </div>
 
             {/* Day Cards Grid */}
